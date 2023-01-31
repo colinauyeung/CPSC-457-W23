@@ -33,6 +33,21 @@ int main(){
     }
     cout << endl;
 
+    //A few other ways we can index through a vector
+    //Standard for loops:
+    cout << "For Loop Indexing: " << endl;
+    for(long unsigned int i = 0; i<myvec.size(); i++){
+        cout << myvec[i] << ",";
+    }
+    cout << endl;
+
+    // Indexing with iterators
+    cout << "Iterator For Loop: " << endl;
+    for(auto i = myvec.begin(); i!=myvec.end(); i = next(i, 1)){
+        cout << *i << ",";
+    }
+    cout << endl;
+
     //We can get values from vectors either using array notation or object notation
     cout << myvec[1] << endl;
     cout << myvec.at(1) << endl;
@@ -61,8 +76,14 @@ int main(){
     //Iterators are essentially wrapped pointers for C++ data structures
     //They give us access to elements within the data structure like pointers would with C arrays
     //We can do several things with iterators:
-    //      -We can get the value of what the iterator points to using the \* operator
+    //      -We can get the value of what the iterator points to using the * operator
     //      -We can do (limited) math with iterators to move them around
+    
+    // Some notes about iterators:
+    //     -They don't actually corrospond directly to memory and instead a particular item in the data structure (if you add elements around the one you
+    //      have an iterator for, the iterator will still point it to the original)
+    //     -If you resize a vector (ie realloacte it) IT WILL INVALIDATE ITERATORS
+        
     
 
     //Most data types give us access to two iterators
