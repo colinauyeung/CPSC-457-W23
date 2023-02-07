@@ -1,0 +1,3 @@
+Statstics for Deck: Miracles
+Average name length: 12
+Average cost: 1
