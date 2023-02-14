@@ -1,0 +1,28 @@
+1 Gingerbrute
+3 Memnite
+3 Ornithopter
+4 Puresteel Paladin
+4 Stoneforge Mystic
+4 Esper Sentinel
+1 Kaldra Compleat
+1 Nettlecyst
+1 Shadowspear
+1 Sword of Fire and Ice
+3 Springleaf Drum
+4 Colossus Hammer
+2 Blacksmith's Skill
+2 Steelshaper's Gift
+4 Urza's Saga
+4 Sigarda's Aid
+1 Eiganjo, Seat of the Empire
+3 Inkmoth Nexus
+4 Silent Clearing
+10 Snow-Covered Plains
+Sideboard
+1 Relic of Progenitus
+1 Pithing Needle
+2 Hallowed Moonlight
+2 Hushbringer
+2 Sanctifier en-Vec
+3 March of Otherworldly Light
+4 Drannith Magistrate

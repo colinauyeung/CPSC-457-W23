@@ -19,9 +19,6 @@ int main(){
     //First let's setup the command we want to run and buffer to put things into
     std::string command = "ls -al";
     char buff[1024];
-    for(int i = 0; i<1024; i++){
-        buff[i] = '\0';
-    }
 
     //Next I'm going to make a results string as a C++ style string
     std::string res = "";
@@ -37,40 +34,13 @@ int main(){
     //So we're going to use fgets here. This is basically read() but for C style files
     //Same basic calling convention, execpt different order of arguments and it will return NULL instead of 0 when it's done reading
     while(fgets(buff, 1024, fp) != NULL){
-
-            //Same basic idea as from files.cpp, just iterating over the results
-            for(int i = 0; i<1024; i++){
-                
-                //In this case since fgets doesn't return the number of bytes read, I'm just breaking when I find null character (which I've made sure to initalize the buffer to)
-                //This just tells me when I've reached the end of the characters that have been read from the file
-                if(buff[i] == '\0') break;
-
-                //Next I'm going to check for the end of line, since in this cause I'm going to be printing lines instead of individual characters
-                if(buff[i] == '\n'){
-                    //This bit of code here, all I'm doing is checking the output of each line of ls has x in the fifth character (basically tell me if the file in that line is executable)
-                    //In this case, I'm going to make it so that I only print such files
-                    if(res.length() >= 4){
-                        if(res[4] == 'x'){
-                            std::cout << res << std::endl;
-                        }
-                    }
-
-                    //Because I want to store each line in res one at a time, when I'm done with this line, we'll clear res
-                    res.clear();
+            res.assign(buff);
+            if(res.length() >= 4){
+                if(res[3] == 'x'){
+                    std::cout << res;
                 }
-
-                
-                //IUf we've encountered a normal character, let's save it to res to be handled when we reach the end of a line
-                else{
-                    res.push_back(buff[i]);
-                }
-                
             }
-
-            //Finally when we've done with the output from the file, let's re-initalized our buffer before it gets refreshed with new stuff
-            for(int i = 0; i<1024; i++){
-                buff[i] = '\0';
-            }
+            res.clear();
     }
 
     //MAKES SURE TO CLOSE YOUR FILES

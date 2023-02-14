@@ -8,7 +8,7 @@ int main(){
     int a = 10;
 
     //Let's play with some forks!
-    //Renember that forks duplicate the current process
+    //Remember that forks duplicate the current process
     //So after the fork call, we'll actually have two processes running our code!
     //What fork returns depends on whether we're the parent process or not
     //      If we're the parent process, it returns the process id of the newly created child process

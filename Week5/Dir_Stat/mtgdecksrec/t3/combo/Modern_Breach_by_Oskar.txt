@@ -1,0 +1,36 @@
+1 Aether Spellbomb
+1 Springleaf Drum
+1 Lightning Bolt
+2 Teferi, Time Raveler
+3 Grinding Station
+3 Mox Amber
+4 Underworld Breach
+4 Expressive Iteration
+4 Unholy Heat
+4 Mishra's Bauble
+1 Thassa's Oracle
+4 Emry, Lurker of the Loch
+4 Ledger Shredder
+4 Ragavan, Nimble Pilferer
+1 Sacred Foundry
+1 Otawara, Soaring City
+1 Island
+1 Hallowed Fountain
+1 Spirebluff Canal
+1 Arid Mesa
+1 Bloodstained Mire
+1 Mountain
+2 Flooded Strand
+2 Steam Vents
+4 Urza's Saga
+4 Scalding Tarn
+Sideboard
+2 Tormod's Crypt
+2 Spell Pierce
+2 Prismatic Ending
+2 Mystical Dispute
+2 Wear / Tear
+2 Engineered Explosives
+1 Flusterstorm
+1 Pithing Needle
+1 Shadowspear

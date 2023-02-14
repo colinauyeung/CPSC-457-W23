@@ -1,0 +1,26 @@
+Rakdos Agrro
+1 Kroxa,_Titan_of_Death's_Hunger
+2 Fable_of_the_Mirror-Breaker
+3 Seasoned_Pyromancer
+3 Dauthi_Voidwalker
+4 Grief
+4 Ragavan,_Nimble_Pilferer
+4 Fury
+1 Spikefield_Hazard
+1 Kolaghan's_Command
+2 Lightning_Bolt
+3 Terminate
+3 Malakir_Rebirth
+4 Undying_Malice
+1 Night's_Whisper
+1 Agadeem's_Awakening
+3 Thoughtseize
+2 Blood_Moon
+1 Liliana_of_the_Veil
+1 Mountain
+2 Blood_Crypt
+3 Swamp
+3 Marsh_Flats
+4 Blackcleave_Cliffs
+4 Bloodstained_Mire
+
